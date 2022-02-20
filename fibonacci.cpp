@@ -10,8 +10,7 @@ using namespace std;
 
 int main()
 {
-    int fib[60] = {0,1};
-    //60 elements
+    int fib[60] = {0,1}; //60 elements in array
     cout << fib[0] << " " << fib[1];
     for (int i = 0; i < 60; i++)
     {
